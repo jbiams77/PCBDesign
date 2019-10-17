@@ -528,11 +528,11 @@
 <pin name="VDDA" x="73.66" y="-63.5" length="middle" direction="pwr" rot="R180"/>
 <pin name="GNDA" x="73.66" y="-86.36" length="middle" direction="pwr" rot="R180"/>
 <pin name="PB7" x="2.54" y="-48.26" length="middle"/>
-<pin name="PF4" x="73.66" y="-48.26" length="middle" rot="R180"/>
-<pin name="PE3" x="73.66" y="-27.94" length="middle" rot="R180"/>
-<pin name="PE2" x="73.66" y="-25.4" length="middle" rot="R180"/>
-<pin name="PE1" x="73.66" y="-22.86" length="middle" rot="R180"/>
-<pin name="PE0" x="73.66" y="-20.32" length="middle" rot="R180"/>
+<pin name="PF4" x="73.66" y="-43.18" length="middle" rot="R180"/>
+<pin name="PE3" x="73.66" y="-25.4" length="middle" rot="R180"/>
+<pin name="PE2" x="73.66" y="-22.86" length="middle" rot="R180"/>
+<pin name="PE1" x="73.66" y="-20.32" length="middle" rot="R180"/>
+<pin name="PE0" x="73.66" y="-17.78" length="middle" rot="R180"/>
 <pin name="PD7" x="73.66" y="-15.24" length="middle" rot="R180"/>
 <pin name="VDD_2" x="73.66" y="-55.88" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND_2" x="73.66" y="-78.74" length="middle" direction="pwr" rot="R180"/>
@@ -551,10 +551,10 @@
 <pin name="VDDC_2" x="73.66" y="-68.58" length="middle" direction="pwr" rot="R180"/>
 <pin name="VDD_3" x="73.66" y="-58.42" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND_3" x="73.66" y="-81.28" length="middle" direction="pwr" rot="R180"/>
-<pin name="PF0" x="73.66" y="-38.1" length="middle" rot="R180"/>
-<pin name="PF1" x="73.66" y="-40.64" length="middle" rot="R180"/>
-<pin name="PF2" x="73.66" y="-43.18" length="middle" rot="R180"/>
-<pin name="PF3" x="73.66" y="-45.72" length="middle" rot="R180"/>
+<pin name="PF0" x="73.66" y="-33.02" length="middle" rot="R180"/>
+<pin name="PF1" x="73.66" y="-35.56" length="middle" rot="R180"/>
+<pin name="PF2" x="73.66" y="-38.1" length="middle" rot="R180"/>
+<pin name="PF3" x="73.66" y="-40.64" length="middle" rot="R180"/>
 <pin name="!WAKE" x="2.54" y="-83.82" length="middle" direction="in"/>
 <pin name="!HIB" x="2.54" y="-81.28" length="middle" direction="out"/>
 <pin name="XOSC0" x="2.54" y="-73.66" length="middle" direction="in"/>
@@ -582,8 +582,8 @@
 <pin name="VDDC" x="73.66" y="-66.04" length="middle" direction="pwr" rot="R180"/>
 <pin name="PB5" x="2.54" y="-43.18" length="middle"/>
 <pin name="PB4" x="2.54" y="-40.64" length="middle"/>
-<pin name="PE4" x="73.66" y="-30.48" length="middle" rot="R180"/>
-<pin name="PE5" x="73.66" y="-33.02" length="middle" rot="R180"/>
+<pin name="PE4" x="73.66" y="-27.94" length="middle" rot="R180"/>
+<pin name="PE5" x="73.66" y="-30.48" length="middle" rot="R180"/>
 <pin name="PD0" x="73.66" y="2.54" length="middle" rot="R180"/>
 <pin name="PD1" x="73.66" y="0" length="middle" rot="R180"/>
 <pin name="PD2" x="73.66" y="-2.54" length="middle" rot="R180"/>

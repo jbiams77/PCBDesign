@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1183,11 +1183,48 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER20">
+<deviceset name="HEADER_J1">
 <gates>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER_J2" uservalue="yes">
+<gates>
+<gate name="A" symbol="HEADER2" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDRV20W80P254_1X20_5100X250X838B">
+<connects>
+<connect gate="A" pin="3V3" pad="1"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="PD0" pad="3"/>
+<connect gate="A" pin="PD1" pad="4"/>
+<connect gate="A" pin="PD2" pad="5"/>
+<connect gate="A" pin="PD3" pad="6"/>
+<connect gate="A" pin="PD6" pad="7"/>
+<connect gate="A" pin="PD7" pad="8"/>
+<connect gate="A" pin="PE0" pad="9"/>
+<connect gate="A" pin="PE1" pad="10"/>
+<connect gate="A" pin="PE2" pad="11"/>
+<connect gate="A" pin="PE3" pad="12"/>
+<connect gate="A" pin="PE4" pad="13"/>
+<connect gate="A" pin="PE5" pad="14"/>
+<connect gate="A" pin="PF0" pad="15"/>
+<connect gate="A" pin="PF1" pad="16"/>
+<connect gate="A" pin="PF2" pad="17"/>
+<connect gate="A" pin="PF3" pad="18"/>
+<connect gate="A" pin="PF4" pad="19"/>
+<connect gate="A" pin="RST" pad="20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14495573/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>

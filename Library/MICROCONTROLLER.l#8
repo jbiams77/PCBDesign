@@ -533,10 +533,10 @@
 <pin name="PE2" x="-17.78" y="-2.54" length="middle"/>
 <pin name="PE1" x="-17.78" y="0" length="middle"/>
 <pin name="PE0" x="-17.78" y="2.54" length="middle"/>
-<pin name="PD7" x="2.54" y="-63.5" length="middle"/>
+<pin name="PD7" x="2.54" y="-86.36" length="middle"/>
 <pin name="VDD_2" x="-45.72" y="-25.4" length="middle" direction="pwr"/>
 <pin name="GND_2" x="-45.72" y="-27.94" length="middle" direction="pwr"/>
-<pin name="PC7" x="-45.72" y="-30.48" length="middle"/>
+<pin name="PC7" x="2.54" y="-63.5" length="middle"/>
 <pin name="PC6" x="2.54" y="-60.96" length="middle"/>
 <pin name="PC5" x="2.54" y="-58.42" length="middle"/>
 <pin name="PC4" x="2.54" y="-55.88" length="middle"/>
