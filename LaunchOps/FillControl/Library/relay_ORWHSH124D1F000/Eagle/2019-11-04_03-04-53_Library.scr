@@ -1,0 +1,120 @@
+# Created by Ultra Librarian Gold 8.3.134 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'relay_1-1721150-0.pac';
+Change Drill 51;
+Pad '1' Round 0 71 R0 (-480 472);
+Change Drill 51;
+Pad '2' Round 0 71 R0 (-480 0);
+Change Drill 51;
+Pad '3' Round 0 71 R0 (0 472);
+Change Drill 51;
+Pad '5' Round 0 71 R0 (79 236);
+Change Drill 51;
+Pad '4' Round 0 71 R0 (0 0);
+Layer 39;
+Wire 6 (-628 551) (-628 -79);
+Wire 6 (-628 -79) (148 -79);
+Wire 6 (148 -79) (148 551);
+Wire 6 (148 551) (-628 551);
+Layer 39;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-628.1575 551.2204) (-628.1575 -78.7796) (147.8425 -78.7796) \
+    (147.8425 551.2204) (-628.1575 551.2204);
+Layer 39;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-618.1575 541.2204) (-618.1575 -68.7796) (137.8425 -68.7796) \
+    (137.8425 541.2204) (-618.1575 541.2204);
+Layer 21;
+Wire 6 (-623 -74) (143 -74);
+Wire 6 (143 -74) (143 546);
+Wire 6 (143 546) (-623 546);
+Wire 6 (-623 546) (-623 -74);
+Wire 20 (-633 472) -180 (-663 472);
+Wire 20 (-663 472) -180 (-633 472);
+Layer 51;
+Wire 6 (-618 -69) (138 -69);
+Wire 6 (138 -69) (138 541);
+Wire 6 (138 541) (-618 541);
+Wire 6 (-618 541) (-618 -69);
+Wire 20 (-465 547) -180 (-495 547);
+Wire 20 (-495 547) -180 (-465 547);
+Layer 23;
+Wire 6 (-490 472) (-470 472);
+Wire 6 (-480 462) (-480 482);
+Layer 22;
+Wire 20 (-633 472) -180 (-663 472);
+Wire 20 (-663 472) -180 (-633 472);
+Layer 48;
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-369 211);
+Layer 27;
+
+Edit 'relay_1-1721150-0.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (100 -25)
+Pin '5' Pas None Middle R0 Pad 0 (100 -325)
+Pin '4' Pas None Middle R180 Pad 0 (800 -175)
+Pin '2' Pas None Middle R180 Pad 0 (800 -25)
+Pin '3' Pas None Middle R0 Pad 0 (100 -175)
+Wire 6 (300 100) (300 -400);
+Wire 6 (300 100) (600 100);
+Wire 6 (600 100) (600 -400);
+Wire 6 (300 -400) (600 -400);
+Wire 6 (300 -25) (350 -25);
+Wire 6 (350 0) (350 -50);
+Wire 6 (350 0) (375 -25);
+Wire 6 (350 -50) (375 -25);
+Wire 6 (300 -175) (350 -175);
+Wire 6 (350 -175) (350 -125);
+Wire 6 (550 -125) (550 -175);
+Wire 6 (550 -175) (600 -175);
+Wire 6 (300 -325) (450 -325);
+Wire 6 (450 -325) (450 -75);
+Wire 6 (450 -75) (575 25);
+Wire 6 (600 -25) (550 -25);
+Wire 6 (550 0) (525 -25);
+Wire 6 (525 -25) (550 -50);
+Wire 6 (550 -50) (550 0);
+Wire 6 (400 -125) -180 (450 -125);
+Wire 6 (450 -125) -180 (500 -125);
+Wire 6 (350 -125) -180 (400 -125);
+Wire 6 (500 -125) -180 (550 -125);
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (350 0) (375 -25) (350 -50) (350 0);
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (525 -25) (550 0) (550 -50) (525 -25);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (289 259);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (264 159);
+
+Edit 'ORWH-SH-124D1F,000.dev';
+Prefix 'RLA';
+Description '';
+Value Off;
+Add relay_1-1721150-0 'A' Next  0 (0 0);
+Package 'relay_1-1721150-0';
+Technology '';
+Attribute Manufacturer_Part_Number 'ORWHSH124D1F000';
+Attribute Vendor 'TE Connectivity';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
+Connect 'A.5' '5';

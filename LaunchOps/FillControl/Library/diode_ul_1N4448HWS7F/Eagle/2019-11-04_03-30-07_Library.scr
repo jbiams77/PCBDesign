@@ -1,0 +1,108 @@
+# Created by Ultra Librarian Gold 8.3.134 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'DIODE_SOD323.pac';
+Layer 1;
+Smd '1' 23 18 -0 R0 (-41.5354 0);
+Layer 1;
+Smd '2' 23 18 -0 R0 (41.5354 0);
+Layer 39;
+Wire 6 (-63 -19) (-63 19);
+Wire 6 (-63 19) (-46 19);
+Wire 6 (63 19) (46 19);
+Wire 6 (63 19) (63 -19);
+Wire 6 (63 -19) (46 -19);
+Wire 6 (-63 -19) (-46 -19);
+Wire 6 (-46 19) (-46 38);
+Wire 6 (-46 38) (46 38);
+Wire 6 (46 38) (46 19);
+Wire 6 (46 -19) (46 -38);
+Wire 6 (46 -38) (-46 -38);
+Wire 6 (-46 -38) (-46 -19);
+Layer 39;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-63.0354 -19) (-63.0354 19) (-45.5 19) (-45.5 37.5) (45.5 37.5) \
+    (45.5 19) (63.0354 19) (63.0354 -19) (45.5 -19) (45.5 -37.5) (-45.5 -37.5) \
+    (-45.5 -19) (-63.0354 -19);
+Layer 21;
+Wire 6 (-40 -32) (40 -32);
+Wire 6 (40 -32) (40 -22);
+Wire 6 (40 32) (-40 32);
+Wire 6 (-40 32) (-40 22);
+Wire 6 (-40 -22) (-40 -32);
+Wire 6 (40 22) (40 32);
+Layer 51;
+Wire 6 (-36 -28) (36 -28);
+Wire 6 (36 -28) (36 28);
+Wire 6 (36 28) (-36 28);
+Wire 6 (-36 28) (-36 -28);
+Wire 0 (-22 0) -180 (-28 0);
+Wire 0 (-28 0) -180 (-22 0);
+Wire 6 (12 28) -180 (-12 27);
+Layer 23;
+Wire 6 (-10 0) (10 0);
+Wire 6 (0 -10) (0 10);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'DIODE.sym';
+Layer 94;
+Pin '2' Pas None Short R0 Off 1 (0 0)
+Pin '1' Pas None Short R180 Off 1 (400 0)
+Wire 8 (100 0) (137 0);
+Wire 8 (150 75) (150 -75);
+Wire 8 (125 0) (150 0);
+Wire 8 (250 -75) (250 75);
+Wire 8 (250 0) (300 0);
+Wire 8 (250 0) (150 75);
+Wire 8 (150 -75) (250 0);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (-153 -218);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (-111 106);
+
+Edit 'DIODEV.sym';
+Layer 94;
+Pin '2' Pas None Short R90 Off 1 (0 0)
+Pin '1' Pas None Short R270 Off 1 (0 400)
+Wire 8 (0 100) (0 137);
+Wire 8 (-75 150) (75 150);
+Wire 8 (0 125) (0 150);
+Wire 8 (75 250) (-75 250);
+Wire 8 (0 250) (0 300);
+Wire 8 (0 250) (-75 150);
+Wire 8 (75 150) (0 250);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (100 82);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (100 206);
+
+Edit '1N4448HWS-7-F.dev';
+Prefix 'D';
+Description '';
+Value Off;
+Add DIODE 'A' Next  1 (0 0);
+Package 'DIODE_SOD323';
+Technology '';
+Attribute Manufacturer_Part_Number '1N4448HWS7F';
+Attribute Vendor 'Diodes';
+Connect 'A.2' '2';
+Connect 'A.1' '1';
