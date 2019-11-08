@@ -9813,6 +9813,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="327.66" y1="76.2" x2="322.58" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$15" class="0">
+<segment>
+<wire x1="261.62" y1="81.28" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

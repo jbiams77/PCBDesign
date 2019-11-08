@@ -10809,11 +10809,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="137.16" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="R1+" class="0">
+<net name="+24V" class="0">
 <segment>
 <pinref part="K1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="228.6" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
 <label x="115.316" y="228.092" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="R1+" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="5"/>
+<wire x1="109.22" y1="233.68" x2="114.3" y2="233.68" width="0.1524" layer="91"/>
+<label x="114.3" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
