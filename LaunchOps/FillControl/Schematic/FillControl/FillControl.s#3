@@ -5591,6 +5591,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C1" library="FillControl" deviceset="CAP_4.7" device="" value="4.7uF"/>
 <part name="C2" library="FillControl" deviceset="CAP_18" device=""/>
 <part name="L1" library="FillControl" deviceset="INDUCTOR_SRR1210-680M" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5770,14 +5771,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="190.5" y="241.4524" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="183.642" y="240.8428" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="C2" gate="A" x="116.84" y="256.54" smashed="yes">
-<attribute name="VALUE" x="119.38" y="249.0724" size="1.778" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="119.38" y="257.3528" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<instance part="C2" gate="A" x="119.38" y="256.54" smashed="yes">
+<attribute name="VALUE" x="121.92" y="249.0724" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="121.92" y="257.3528" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="L1" gate="A" x="170.18" y="254" smashed="yes">
 <attribute name="VALUE" x="168.1988" y="249.7328" size="2.54" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="175.8696" y="250.7488" size="2.54" layer="95" ratio="10" rot="SR0"/>
 </instance>
+<instance part="SUPPLY13" gate="GND" x="149.86" y="228.6" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5947,6 +5949,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="96.52" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="A" pin="2"/>
+<wire x1="187.96" y1="241.3" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="D7" gate="A" pin="2"/>
+<wire x1="167.64" y1="238.76" x2="167.64" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="236.22" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="GND"/>
+<wire x1="127" y1="254" x2="129.54" y2="254" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="254" x2="129.54" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="236.22" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
+<junction x="167.64" y="236.22"/>
+<pinref part="C2" gate="A" pin="2"/>
+<wire x1="149.86" y1="236.22" x2="167.64" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="248.92" x2="119.38" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="236.22" x2="129.54" y2="236.22" width="0.1524" layer="91"/>
+<junction x="129.54" y="236.22"/>
+<wire x1="149.86" y1="236.22" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
+<junction x="149.86" y="236.22"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6205,13 +6227,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="187.96" y="254"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="N$40" class="0">
 <segment>
-<pinref part="C1" gate="A" pin="2"/>
-<wire x1="187.96" y1="241.3" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="D7" gate="A" pin="2"/>
-<wire x1="167.64" y1="238.76" x2="167.64" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="236.22" x2="187.96" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="VIN"/>
+<wire x1="127" y1="259.08" x2="119.38" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="C2" gate="A" pin="1"/>
+<wire x1="119.38" y1="259.08" x2="114.3" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="256.54" x2="119.38" y2="259.08" width="0.1524" layer="91"/>
+<junction x="119.38" y="259.08"/>
 </segment>
 </net>
 </nets>
