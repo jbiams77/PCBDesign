@@ -10664,7 +10664,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="K1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="228.6" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
-<label x="115.316" y="228.092" size="1.778" layer="95"/>
+<label x="114.554" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R1+" class="0">
