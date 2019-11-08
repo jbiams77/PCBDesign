@@ -1,0 +1,100 @@
+# Created by Ultra Librarian Gold 8.3.134 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'FUS_VISHAY_MFU0805.pac';
+Layer 1;
+Smd '1' 35.5 55 -0 R0 (-35.25 0);
+Layer 1;
+Smd '2' 35.5 55 -0 R0 (35.25 0);
+Layer 1;
+Layer 39;
+Wire 6 (-63 -38) (-63 38);
+Wire 6 (-63 38) (-52 38);
+Wire 6 (52 38) (63 38);
+Wire 6 (63 38) (63 -38);
+Wire 6 (63 -38) (52 -38);
+Wire 6 (-52 -38) (-63 -38);
+Wire 6 (-52 -38) (-52 -38);
+Wire 6 (-52 38) (-52 38);
+Wire 6 (-52 38) (52 38);
+Wire 6 (52 38) (52 38);
+Wire 6 (52 -38) (52 -38);
+Wire 6 (52 -38) (-52 -38);
+Layer 39;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-63 -37.5) (-63 37.5) (-51.5 37.5) (51.5 37.5) (63 37.5) (63 -37.5) \
+    (51.5 -37.5) (-51.5 -37.5) (-63 -37.5);
+Layer 21;
+Wire 6 (-5 -32) (5 -32);
+Wire 6 (5 32) (-5 32);
+Wire 6 (-80 0) -180 (-86 0);
+Wire 6 (-86 0) -180 (-80 0);
+Layer 51;
+Wire 6 (-42 -28) (42 -28);
+Wire 6 (42 -28) (42 28);
+Wire 6 (42 28) (-42 28);
+Wire 6 (-42 28) (-42 -28);
+Wire 0 (-36 0) -180 (-42 0);
+Wire 0 (-42 0) -180 (-36 0);
+Layer 23;
+Wire 6 (-10 0) (10 0);
+Wire 6 (0 -10) (0 10);
+Layer 41;
+Layer 41;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-15.5 25.5) (15.5 25.5) (15.5 -25.5) (-15.5 -25.5) (-15.5 25.5);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'FUSE.sym';
+Layer 94;
+Pin '1' Pas None Short R0 Off 0 (0 0)
+Pin '2' Pas None Short R180 Off 0 (400 0)
+Wire 6 (100 0) -180 (200 0);
+Wire 6 (300 0) -180 (200 0);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (-153 -194);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (-111 56);
+
+Edit 'FUSEV.sym';
+Layer 94;
+Pin '1' Pas None Short R90 Off 0 (0 0)
+Pin '2' Pas None Short R270 Off 0 (0 400)
+Wire 6 (0 100) -180 (0 200);
+Wire 6 (0 300) -180 (0 200);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (75 6);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (75 256);
+
+Edit 'MFU0805FF02000P100.dev';
+Prefix 'F';
+Description '';
+Value Off;
+Add FUSE 'A' Next  0 (0 0);
+Package 'FUS_VISHAY_MFU0805';
+Technology '';
+Attribute Vendor 'VISHAY';
+Attribute Manufacturer_Part_Number 'MFU0805FF02000P100';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
