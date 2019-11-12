@@ -1879,7 +1879,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R7" library="MICROCONTROLLER" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:14416342/1" value="10k"/>
 <part name="GND13" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="J3" library="MICROCONTROLLER" deviceset="USBMICRO" device=""/>
-<part name="U$1" library="MICROCONTROLLER" deviceset="LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
