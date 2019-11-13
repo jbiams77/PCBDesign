@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9439,6 +9439,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="220.98" y="251.46" size="3.81" layer="97">DC-DC CONVERSION</text>
 <text x="124.46" y="142.24" size="3.81" layer="97">ADC1</text>
 <text x="124.46" y="86.36" size="3.81" layer="97">ADC2</text>
+<text x="338.074" y="6.604" size="3.81" layer="95">INITIAL DEVELOPMENT</text>
+<text x="417.322" y="6.096" size="3.81" layer="95">(-)</text>
+<text x="327.66" y="27.94" size="3.81" layer="96">DESIGNED BY: J. BRANDON IAMS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10226,6 +10229,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="147.32" y="116.84" size="3.81" layer="95">RELAY 10</text>
 <text x="287.02" y="93.98" size="3.81" layer="97" rot="R270">RELAY OUT</text>
 <text x="386.08" y="91.44" size="3.81" layer="97" rot="R270">LED OUT</text>
+<text x="338.074" y="6.604" size="3.81" layer="95">INITIAL DEVELOPMENT</text>
+<text x="417.322" y="6.096" size="3.81" layer="95">(-)</text>
+<text x="327.66" y="27.94" size="3.81" layer="96">DESIGNED BY: J. BRANDON IAMS</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
