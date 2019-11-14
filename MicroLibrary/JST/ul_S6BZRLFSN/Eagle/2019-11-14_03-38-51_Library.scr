@@ -1,0 +1,160 @@
+# Created by Ultra Librarian Gold 8.3.134 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'S6B-ZR.pac';
+Change Drill 30;
+Pad '1' Square 0 50 R0 (-295 0);
+Change Drill 30;
+Pad '2' Round 0 50 R0 (-236 0);
+Change Drill 30;
+Pad '3' Round 0 50 R0 (-177 0);
+Change Drill 30;
+Pad '4' Round 0 50 R0 (-118 0);
+Change Drill 30;
+Pad '5' Round 0 50 R0 (-59 0);
+Change Drill 30;
+Pad '6' Round 0 50 R0 (0 0);
+Layer 39;
+Wire 6 (-364 65) (-364 -191);
+Wire 6 (-364 -191) (69 -191);
+Wire 6 (69 -191) (69 65);
+Wire 6 (69 65) (-364 65);
+Layer 39;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-364.1378 64.8976) (-364.1378 -191.1024) (68.8622 -191.1024) \
+    (68.8622 64.8976) (-364.1378 64.8976);
+Layer 21;
+Wire 6 (-295 65) (-320 115);
+Wire 6 (-320 115) (-270 115);
+Wire 6 (-270 115) (-295 65);
+Wire 6 (-359 -186) (64 -186);
+Wire 6 (64 -186) (64 60);
+Wire 6 (64 60) (-359 60);
+Wire 6 (-359 60) (-359 -186);
+Layer 51;
+Wire 6 (-295 65) (-320 115);
+Wire 6 (-320 115) (-270 115);
+Wire 6 (-270 115) (-295 65);
+Wire 6 (-354 -181) (59 -181);
+Wire 6 (59 -181) (59 55);
+Wire 6 (59 55) (-354 55);
+Wire 6 (-354 55) (-354 -181);
+Layer 23;
+Wire 6 (-305 0) (-285 0);
+Wire 6 (-295 -10) (-295 10);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-276 -25);
+Layer 27;
+
+Edit 'CONN_S6B-ZR.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Wire 6 (400 0) (200 0);
+Wire 6 (400 -100) (200 -100);
+Wire 6 (400 -200) (200 -200);
+Wire 6 (400 -300) (200 -300);
+Wire 6 (400 -400) (200 -400);
+Wire 6 (400 -500) (200 -500);
+Wire 6 (400 0) (350 33);
+Wire 6 (400 -100) (350 -67);
+Wire 6 (400 -200) (350 -167);
+Wire 6 (400 -300) (350 -267);
+Wire 6 (400 -400) (350 -367);
+Wire 6 (400 -500) (350 -467);
+Wire 6 (400 0) (350 -33);
+Wire 6 (400 -100) (350 -133);
+Wire 6 (400 -200) (350 -233);
+Wire 6 (400 -300) (350 -333);
+Wire 6 (400 -400) (350 -433);
+Wire 6 (400 -500) (350 -533);
+Wire 6 (200 100) (200 -600);
+Wire 6 (200 -600) (500 -600);
+Wire 6 (500 -600) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CONN_S6B-ZR_2.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Wire 6 (300 0) (200 0);
+Wire 6 (300 -100) (200 -100);
+Wire 6 (300 -200) (200 -200);
+Wire 6 (300 -300) (200 -300);
+Wire 6 (300 -400) (200 -400);
+Wire 6 (300 -500) (200 -500);
+Wire 6 (300 0) (350 33);
+Wire 6 (300 -100) (350 -67);
+Wire 6 (300 -200) (350 -167);
+Wire 6 (300 -300) (350 -267);
+Wire 6 (300 -400) (350 -367);
+Wire 6 (300 -500) (350 -467);
+Wire 6 (300 0) (350 -33);
+Wire 6 (300 -100) (350 -133);
+Wire 6 (300 -200) (350 -233);
+Wire 6 (300 -300) (350 -333);
+Wire 6 (300 -400) (350 -433);
+Wire 6 (300 -500) (350 -533);
+Wire 6 (200 100) (200 -600);
+Wire 6 (200 -600) (500 -600);
+Wire 6 (500 -600) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CONN_S6B-ZR_3.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Wire 6 (200 100) (200 -600);
+Wire 6 (200 -600) (500 -600);
+Wire 6 (500 -600) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'S6B-ZR(LF)(SN).dev';
+Prefix 'P';
+Description '';
+Value Off;
+Add CONN_S6B-ZR 'A' Next  0 (0 0);
+Package 'S6B-ZR';
+Technology '';
+Attribute Vendor 'JST';
+Attribute Manufacturer_Part_Number 'S6BZRLFSN';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
+Connect 'A.5' '5';
+Connect 'A.6' '6';
