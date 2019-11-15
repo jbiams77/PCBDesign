@@ -945,6 +945,10 @@
 </gates>
 <devices>
 <device name="" package="CAP_ULH_10X10">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="ULT2D180MNL1GS" constant="no"/>

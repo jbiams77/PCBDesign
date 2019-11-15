@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1138,6 +1138,21 @@
 <wire x1="-8.9916" y1="1.397" x2="-8.9916" y2="-4.5974" width="0.1524" layer="51"/>
 <text x="-8.2804" y="3.175" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 </package>
+<package name="SLIDESWITCH">
+<pad name="2" x="0" y="0" drill="1.6" diameter="2.5" rot="R270"/>
+<pad name="3" x="4.7" y="0" drill="1.6" diameter="2.5" rot="R270"/>
+<pad name="1" x="-4.8657875" y="-0.148359375" drill="1.6" diameter="2.5" rot="R270"/>
+<pad name="4" x="-6.5" y="9.2" drill="1.2" diameter="2"/>
+<pad name="5" x="6.5" y="9.2" drill="1.2" diameter="2"/>
+<wire x1="6.5" y1="4" x2="6.5" y2="10.5" width="0.3" layer="21"/>
+<wire x1="6.5" y1="10.5" x2="-6.5" y2="10.5" width="0.3" layer="21"/>
+<wire x1="-6.5" y1="10.5" x2="-6.5" y2="4" width="0.3" layer="21"/>
+<wire x1="-6.5" y1="4" x2="6.5" y2="4" width="0.3" layer="21"/>
+<wire x1="-7.5" y1="10.5" x2="7.5" y2="10.5" width="0.3" layer="39"/>
+<wire x1="7.5" y1="10.5" x2="7.5" y2="-1.5" width="0.3" layer="39"/>
+<wire x1="7.5" y1="-1.5" x2="-7.5" y2="-1.5" width="0.3" layer="39"/>
+<wire x1="-7.5" y1="-1.5" x2="-7.5" y2="10.5" width="0.3" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P1210X1210X165-64N" urn="urn:adsk.eagle:package:14363313/1" type="model">
@@ -1966,7 +1981,7 @@
 <wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
 <text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 </symbol>
-<symbol name="4_POS">
+<symbol name="6_POSGEN">
 <pin name="1" x="-5.08" y="2.54" visible="pin" length="middle"/>
 <pin name="2" x="-5.08" y="0" visible="pin" length="middle"/>
 <pin name="3" x="-5.08" y="-2.54" visible="pin" length="middle"/>
@@ -2729,9 +2744,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="S6B-ZR(LF)(SN)" prefix="P">
+<deviceset name="6POS_JST" prefix="J" uservalue="yes">
 <gates>
-<gate name="A" symbol="CONN_S6B-ZR" x="0" y="0"/>
+<gate name="A" symbol="6_POSGEN" x="-5.08" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="6POS_JST">
