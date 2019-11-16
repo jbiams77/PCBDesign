@@ -7559,48 +7559,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="210.82" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DIR_B" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PF4"/>
-<wire x1="205.74" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
-<label x="210.82" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="M0_A" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PD0"/>
-<wire x1="205.74" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
-<label x="210.82" y="175.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="M1_A" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PD1"/>
-<wire x1="205.74" y1="177.8" x2="210.82" y2="177.8" width="0.1524" layer="91"/>
-<label x="210.82" y="177.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="M2_A" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PD2"/>
-<wire x1="205.74" y1="180.34" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
-<label x="210.82" y="180.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="STEP_A" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PD3"/>
-<wire x1="205.74" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
-<label x="210.82" y="182.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIR_A" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PD4"/>
-<wire x1="205.74" y1="147.32" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
-<label x="210.82" y="147.32" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BAT" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PE3"/>
@@ -7660,20 +7618,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R12" gate="&gt;NAME" pin="2"/>
 </segment>
 </net>
-<net name="FAN" class="0">
-<segment>
-<wire x1="154.94" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
-<label x="144.78" y="127" size="1.778" layer="95"/>
-<pinref part="U1" gate="A" pin="PA7"/>
-</segment>
-</net>
-<net name="BUZZER" class="0">
-<segment>
-<wire x1="154.94" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
-<label x="139.7" y="129.54" size="1.778" layer="95"/>
-<pinref part="U1" gate="A" pin="PA6"/>
-</segment>
-</net>
 <net name="PA2" class="0">
 <segment>
 <wire x1="147.32" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
@@ -7700,6 +7644,62 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="132.08" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PC4"/>
 <pinref part="PA5" gate="G$1" pin="P$1"/>
+</segment>
+</net>
+<net name="DIR_A" class="0">
+<segment>
+<wire x1="154.94" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
+<label x="149.606" y="141.478" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="PA2/SSI0CLK"/>
+</segment>
+</net>
+<net name="STEP_A" class="0">
+<segment>
+<wire x1="154.94" y1="137.16" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
+<label x="149.86" y="138.684" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="PA3/SSI0FSS"/>
+</segment>
+</net>
+<net name="M2_A" class="0">
+<segment>
+<wire x1="154.94" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<label x="149.86" y="136.398" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="PA4/SSI0RX"/>
+</segment>
+</net>
+<net name="M1_A" class="0">
+<segment>
+<wire x1="154.94" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+<label x="149.86" y="133.858" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="PA5/SSI0TX"/>
+</segment>
+</net>
+<net name="FAN" class="0">
+<segment>
+<wire x1="154.94" y1="167.64" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
+<label x="144.78" y="167.64" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PB6"/>
+</segment>
+</net>
+<net name="BUZZER" class="0">
+<segment>
+<wire x1="154.94" y1="165.1" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
+<label x="139.7" y="165.1" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="PB7"/>
+</segment>
+</net>
+<net name="M0_A" class="0">
+<segment>
+<wire x1="154.94" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
+<label x="149.86" y="131.318" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="PA6"/>
+</segment>
+</net>
+<net name="DIR_B" class="0">
+<segment>
+<wire x1="154.94" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
+<label x="149.86" y="128.778" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="A" pin="PA7"/>
 </segment>
 </net>
 </nets>
