@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -2877,6 +2877,8 @@ design rules under a new name.</description>
 <wire x1="35.42" y1="52.66" x2="34.84" y2="52.66" width="0.25" layer="1"/>
 <wire x1="34.84" y1="52.66" x2="34.5" y2="53" width="0.25" layer="1"/>
 <via x="34.5" y="53" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
+<contactref element="U3" pad="6"/>
+<wire x1="36.48" y1="67.8204" x2="36.48" y2="59.54" width="0.5" layer="1"/>
 </signal>
 <signal name="!WAKE">
 <contactref element="R6" pad="2"/>
@@ -2918,7 +2920,6 @@ design rules under a new name.</description>
 <wire x1="15.1288" y1="50.07" x2="16.2" y2="50.07" width="0.25" layer="1"/>
 <wire x1="9.45" y1="72.49" x2="7.76" y2="72.49" width="0.25" layer="1"/>
 <wire x1="7.76" y1="72.49" x2="7.75" y2="72.5" width="0.25" layer="1"/>
-<wire x1="19.3599" y1="64.48" x2="19.344515625" y2="64.495384375" width="0.5" layer="1"/>
 <wire x1="19.3599" y1="66.38" x2="17.5" y2="66.38" width="0.5" layer="1"/>
 <wire x1="17.5" y1="66.38" x2="16.12" y2="66.38" width="0.5" layer="1"/>
 <wire x1="16.12" y1="66.38" x2="15.5" y2="67" width="0.5" layer="1"/>
@@ -2961,21 +2962,21 @@ design rules under a new name.</description>
 <wire x1="36.25" y1="29.9" x2="36.75" y2="29.9" width="0.3" layer="1"/>
 <wire x1="36.25" y1="29.9" x2="36.25" y2="30.9" width="0.3" layer="1"/>
 <via x="36.25" y="30.9" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
-<wire x1="36.25" y1="30.9" x2="33.65" y2="30.9" width="0.3" layer="16"/>
-<wire x1="33.65" y1="30.9" x2="32.45" y2="32.1" width="0.3" layer="16"/>
-<via x="32.45" y="32.1" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
-<wire x1="32.45" y1="32.1" x2="32.4" y2="32.15" width="0.3" layer="1"/>
-<wire x1="32.4" y1="32.15" x2="32.4" y2="35.15" width="0.3" layer="1"/>
+<wire x1="36.25" y1="30.9" x2="33.66" y2="30.9" width="0.3" layer="16"/>
+<wire x1="33.66" y1="30.9" x2="32.37" y2="32.19" width="0.3" layer="16"/>
+<via x="32.37" y="32.19" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
+<wire x1="32.37" y1="32.19" x2="32.4" y2="32.22" width="0.3" layer="1"/>
+<wire x1="32.4" y1="32.22" x2="32.4" y2="35.15" width="0.3" layer="1"/>
 </signal>
 <signal name="XOSC0">
 <contactref element="Y2" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="U1" pad="34"/>
 <wire x1="31.27" y1="31.75" x2="27.8" y2="31.75" width="0.3" layer="1"/>
-<wire x1="31.7694" y1="32.78191875" x2="31.9" y2="32.91251875" width="0.3" layer="1"/>
-<wire x1="31.27" y1="31.75" x2="31.7694" y2="32.2494" width="0.3" layer="1"/>
-<wire x1="31.7694" y1="32.2494" x2="31.7694" y2="32.78191875" width="0.3" layer="1"/>
-<wire x1="31.9" y1="32.91251875" x2="31.9" y2="35.15" width="0.3" layer="1"/>
+<wire x1="31.2694" y1="32.78191875" x2="31.9" y2="33.41251875" width="0.3" layer="1"/>
+<wire x1="31.2694" y1="32.78191875" x2="31.2694" y2="31.7506" width="0.3" layer="1"/>
+<wire x1="31.27" y1="31.75" x2="31.2694" y2="31.7506" width="0.3" layer="1"/>
+<wire x1="31.9" y1="33.41251875" x2="31.9" y2="35.15" width="0.3" layer="1"/>
 </signal>
 <signal name="XOSC1">
 <contactref element="Y2" pad="1"/>
@@ -3048,10 +3049,10 @@ design rules under a new name.</description>
 <wire x1="33.4" y1="35.15" x2="33.4" y2="36.85" width="0.25" layer="1"/>
 <wire x1="33.4" y1="36.85" x2="32.75" y2="37.5" width="0.25" layer="1"/>
 <wire x1="29.15" y1="40.4" x2="30.65" y2="40.4" width="0.25" layer="1"/>
-<wire x1="30.65" y1="40.4" x2="31.15" y2="39.9" width="0.25" layer="1"/>
-<via x="31.15" y="39.9" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
+<wire x1="30.65" y1="40.4" x2="31.13" y2="39.92" width="0.25" layer="1"/>
+<via x="31.13" y="39.92" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
 <via x="32.75" y="37.5" extent="1-16" drill="0.3" diameter="0.8" alwaysstop="yes"/>
-<wire x1="31.15" y1="39.9" x2="31.75" y2="39.3" width="0.25" layer="16"/>
+<wire x1="31.13" y1="39.92" x2="31.75" y2="39.3" width="0.25" layer="16"/>
 <wire x1="31.75" y1="39.3" x2="31.75" y2="39.2" width="0.25" layer="16"/>
 <wire x1="31.75" y1="37.9" x2="32.15" y2="37.5" width="0.25" layer="16"/>
 <wire x1="32.15" y1="37.5" x2="32.75" y2="37.5" width="0.25" layer="16"/>
@@ -3118,14 +3119,15 @@ design rules under a new name.</description>
 <wire x1="36.5" y1="24" x2="39.75" y2="20.75" width="0.25" layer="16"/>
 <wire x1="39.75" y1="20.75" x2="47.75" y2="20.75" width="0.25" layer="16"/>
 <contactref element="R13" pad="2"/>
-<wire x1="45.54" y1="39.9" x2="45.55" y2="39.89" width="0.1524" layer="1"/>
-<wire x1="45.55" y1="39.89" x2="41.16" y2="39.89" width="0.25" layer="1"/>
 <wire x1="41.16" y1="39.89" x2="41.15" y2="39.9" width="0.25" layer="1"/>
-<wire x1="41.15" y1="39.9" x2="39.35" y2="39.9" width="0.25" layer="1"/>
+<wire x1="41.15" y1="39.9" x2="41" y2="39.9" width="0.25" layer="1"/>
+<wire x1="41" y1="39.9" x2="39.35" y2="39.9" width="0.25" layer="1"/>
 <wire x1="34.25" y1="45.1" x2="34.25" y2="43.25" width="0.25" layer="16"/>
 <wire x1="37" y1="40.5" x2="38.75" y2="40.5" width="0.25" layer="16"/>
 <wire x1="34.25" y1="43.25" x2="37" y2="40.5" width="0.25" layer="16"/>
 <wire x1="32.75" y1="37.5" x2="33.85" y2="37.5" width="0.25" layer="16"/>
+<wire x1="45.55" y1="39.89" x2="41.01" y2="39.89" width="0.25" layer="1"/>
+<wire x1="41.01" y1="39.89" x2="41" y2="39.9" width="0.25" layer="1"/>
 </signal>
 <signal name="TX-0">
 <contactref element="U1" pad="45"/>

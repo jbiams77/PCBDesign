@@ -3114,7 +3114,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="S1M-13-F" prefix="CR">
+<deviceset name="DIODE_SHOTKY_SMA" prefix="CR">
 <gates>
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
 </gates>
