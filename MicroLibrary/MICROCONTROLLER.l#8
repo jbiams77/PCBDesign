@@ -1207,10 +1207,6 @@
 <wire x1="-2.921" y1="1.5748" x2="-2.921" y2="1.0922" width="0.1524" layer="21"/>
 <wire x1="-2.921" y1="-1.0922" x2="-2.921" y2="-1.5748" width="0.1524" layer="21"/>
 <wire x1="2.921" y1="1.0922" x2="2.921" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.4478" x2="2.794" y2="-1.4478" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="-1.4478" x2="2.794" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="2.794" y1="1.4478" x2="-2.794" y2="1.4478" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="1.4478" x2="-2.794" y2="-1.4478" width="0.1524" layer="51"/>
 <text x="-3.2766" y="2.405" size="1" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <polygon width="0.127" layer="21">
 <vertex x="-0.5" y="0"/>
@@ -3118,7 +3114,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="S1M-13-F" prefix="CR">
+<deviceset name="DIODE_SHOTKY_SMA" prefix="CR">
 <gates>
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
 </gates>

@@ -3082,12 +3082,12 @@
 <devices>
 <device name="" package="6POS_JST">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="1" pad="6"/>
+<connect gate="A" pin="2" pad="5"/>
+<connect gate="A" pin="3" pad="4"/>
+<connect gate="A" pin="4" pad="3"/>
+<connect gate="A" pin="5" pad="2"/>
+<connect gate="A" pin="6" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3175,12 +3175,18 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4POS_MOLEX_2.54">
+<deviceset name="4POS_MOLEX_2.54" prefix="J" uservalue="yes">
 <gates>
 <gate name="A" symbol="4_POSGEN" x="-5.08" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="MOLEX_0705530003">
+<connects>
+<connect gate="A" pin="BLK" pad="4"/>
+<connect gate="A" pin="BLU" pad="1"/>
+<connect gate="A" pin="GRN" pad="3"/>
+<connect gate="A" pin="RED" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

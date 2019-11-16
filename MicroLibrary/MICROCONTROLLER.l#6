@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1421,6 +1421,18 @@
 </polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="MOLEX_0705530003">
+<wire x1="-2.545" y1="0.925" x2="-2.545" y2="-12.665" width="0.127" layer="21"/>
+<wire x1="-2.545" y1="-12.665" x2="10.165" y2="-12.665" width="0.127" layer="21"/>
+<wire x1="10.165" y1="-12.665" x2="10.165" y2="0.925" width="0.127" layer="21"/>
+<wire x1="10.165" y1="0.925" x2="-2.545" y2="0.925" width="0.127" layer="51"/>
+<text x="-2.50233125" y="2.50233125" size="1.27118125" layer="25">&gt;NAME</text>
+<text x="-2.751390625" y="-14.7575" size="1.270640625" layer="27">&gt;VALUE</text>
+<pad name="1" x="0" y="0" drill="1.09"/>
+<pad name="2" x="2.54" y="0" drill="1.09"/>
+<pad name="3" x="5.08" y="0" drill="1.09"/>
+<pad name="4" x="7.62" y="0" drill="1.09"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFP50P1210X1210X165-64N" urn="urn:adsk.eagle:package:14363313/1" type="model">
@@ -2299,8 +2311,11 @@
 <wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.2032" layer="94"/>
 <wire x1="0" y1="6.35" x2="-1.905" y2="3.81" width="0.2032" layer="94"/>
 <wire x1="1.905" y1="3.81" x2="0" y2="6.35" width="0.2032" layer="94"/>
-<text x="2.54" y="2.0828" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="2.54" y="5.2324" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<text x="2.54" y="5.2324" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<wire x1="-2.032" y1="6.35" x2="-2.032" y2="6.858" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="6.858" x2="-1.524" y2="6.858" width="0.254" layer="94"/>
+<wire x1="2.032" y1="6.35" x2="2.032" y2="5.842" width="0.254" layer="94"/>
+<wire x1="2.032" y1="5.842" x2="1.524" y2="5.842" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>

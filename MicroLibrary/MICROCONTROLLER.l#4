@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1427,11 +1427,14 @@
 <wire x1="10.165" y1="-12.665" x2="10.165" y2="0.925" width="0.127" layer="21"/>
 <wire x1="10.165" y1="0.925" x2="-2.545" y2="0.925" width="0.127" layer="51"/>
 <text x="-2.50233125" y="2.50233125" size="1.27118125" layer="25">&gt;NAME</text>
-<text x="-2.751390625" y="-14.7575" size="1.270640625" layer="27">&gt;VALUE</text>
 <pad name="1" x="0" y="0" drill="1.09"/>
 <pad name="2" x="2.54" y="0" drill="1.09"/>
 <pad name="3" x="5.08" y="0" drill="1.09"/>
 <pad name="4" x="7.62" y="0" drill="1.09"/>
+<wire x1="-2.54" y1="1.016" x2="10.16" y2="1.016" width="0.254" layer="39"/>
+<wire x1="10.16" y1="1.016" x2="10.16" y2="-12.7" width="0.254" layer="39"/>
+<wire x1="10.16" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="39"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="1.016" width="0.254" layer="39"/>
 </package>
 </packages>
 <packages3d>
@@ -3168,6 +3171,18 @@
 <attribute name="MANUFACTURER_PART_NUMBER" value="S1M13F" constant="no"/>
 <attribute name="VENDOR" value="Diodes Inc" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4POS_MOLEX_2.54">
+<gates>
+<gate name="A" symbol="4_POSGEN" x="-5.08" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
